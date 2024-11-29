@@ -18,7 +18,7 @@ from sklearn.neural_network import MLPClassifier
 #%%#
 
 #import dataset
-df = pd.read_csv('D:/clases/UDES/articulo leishmaniasis/shap/dataset.csv')
+df = pd.read_csv('D:/dataset.csv')
 df = df.drop(['DANE', 'Year', 'Month',
               'Cases', 'Population'], axis=1)
 df = df.dropna()
